@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("page")
-public class PageController {
-
+public  class  PageController {
+///////////////////////////////////
      //厉害了我的哥我以及大家卡监督卡监督卡我已经在网站上改过了
 	 //我加了一个方法toShow22
 	  @RequestMapping("toShow22")
