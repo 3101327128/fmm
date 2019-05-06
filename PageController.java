@@ -7,9 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("page")
 public class PageController {
+
+     //厉害了我的哥
+
     @RequestMapping("toShow")
     public String toShow(){
         return "show";
+
     }
     @RequestMapping("toLogin")
     public String toLogin(){
